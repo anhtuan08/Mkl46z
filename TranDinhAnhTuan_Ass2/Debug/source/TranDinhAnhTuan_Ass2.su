@@ -1,0 +1,11 @@
+C:\Users\ASUS\Documents\MCUXpressoIDE_11.7.1_9221\workspace\TranDinhAnhTuan_Ass2\CMSIS/core_cm0plus.h:733:22:__NVIC_EnableIRQ	16	static
+C:\Users\ASUS\Documents\MCUXpressoIDE_11.7.1_9221\workspace\TranDinhAnhTuan_Ass2\CMSIS/core_cm0plus.h:822:22:__NVIC_ClearPendingIRQ	16	static
+../source/TranDinhAnhTuan_Ass2.c:35:5:main	8	static
+../source/TranDinhAnhTuan_Ass2.c:47:6:initLed	8	static
+../source/TranDinhAnhTuan_Ass2.c:103:6:delay	16	static
+../source/TranDinhAnhTuan_Ass2.c:112:6:delay_microsecond	24	static
+../source/TranDinhAnhTuan_Ass2.c:121:6:init_sw1_sw2	8	static
+../source/TranDinhAnhTuan_Ass2.c:141:6:init_sysTicks_interrupt	16	static
+../source/TranDinhAnhTuan_Ass2.c:153:6:PORTC_PORTD_IRQHandler	8	static
+../source/TranDinhAnhTuan_Ass2.c:169:6:SysTick_Handler	8	static
+../source/TranDinhAnhTuan_Ass2.c:174:6:Delay_tick	16	static
