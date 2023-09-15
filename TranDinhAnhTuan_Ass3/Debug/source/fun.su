@@ -1,6 +1,0 @@
-../source/fun.c:14:10:hex_to_int	24	static
-../source/fun.c:28:10:calculateChecksum	48	static
-../source/fun.c:45:16:check_sum	1080	static
-../source/fun.c:73:17:checkByteCount	40	static
-../source/fun.c:88:6:parseSRecord	1072	static
-../source/fun.c:134:17:check_hexa	24	static
