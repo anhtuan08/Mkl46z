@@ -7,9 +7,6 @@
 #include "header.h"
 
 
-#define QUEUE_SIZE 4
-#define LINE_LENGTH 80
-#define UART_BAUD_RATE 9600
 
 #define UART_BAUD_RATE 9600
 #define waitTx    (UART0->S1 & UART_S1_TDRE_MASK)
@@ -25,12 +22,6 @@
 #define Green_led_on    GPIOD->PCOR |= (1 << 5)
 #define Green_led_off   GPIOD->PSOR |= (1 << 5)
 
-volatile char received_char;
-volatile char dataArray[QUEUE_SIZE][LINE_LENGTH];
-volatile uint8_t pushIndex = 0;
-uint8_t getIndex = 0;
-volatile uint8_t queue_elements = 0;
-volatile uint8_t pointer = 0;
 
 
 
